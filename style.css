@@ -1,0 +1,118 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* ================= NAVIGATION ================= */
+
+header {
+    background: #0d47a1;
+    padding: 15px 0;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* ================= HEADINGS ================= */
+
+h1 {
+    margin-top: 30px;
+    font-size: 36px;
+    color: #0d47a1;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #1565c0;
+}
+
+/* ================= PARAGRAPHS ================= */
+
+p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* ================= IMAGES ================= */
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* ================= BUTTON ================= */
+
+.btn {
+    background: #0d47a1;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1565c0;
+    transform: scale(1.05);
+}
+
+/* ================= LIST ================= */
+
+ol {
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background: #1052b5;
+    color: rgb(128, 45, 45);
+}
